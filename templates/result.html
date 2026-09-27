@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="result">
+  <div class="result-images">
+    <figure class="result-figure">
+      <img src="{{ image_url }}" alt="Uploaded artwork">
+      <figcaption>Original upload</figcaption>
+    </figure>
+    {% if gradcam_url %}
+    <figure class="result-figure">
+      <img src="{{ gradcam_url }}" alt="Grad-CAM attention heatmap">
+      <figcaption>Where the model looked</figcaption>
+    </figure>
+    {% endif %}
+  </div>
+
+  <div class="result-panel">
+    <p class="result-eyebrow">Result · {{ timestamp }}</p>
+    <h1 class="result-verdict {{ 'verdict-ai' if prediction == 'ai_generated' else 'verdict-real' }}">
+      {{ "AI-Generated Artwork" if prediction == "ai_generated" else "Real Painting" }}
+    </h1>
+
+    {% if low_confidence %}
+      <p class="low-confidence-flag">Low confidence prediction — treat this result with caution.</p>
+    {% endif %}
+
+    <div class="confidence-block">
+      <div class="confidence-label">
+        <span>Confidence</span>
+        <span>{{ confidence }}%</span>
+      </div>
+      <div class="confidence-track">
+        <div class="confidence-fill" style="width: {{ confidence }}%;"></div>
+      </div>
+    </div>
+
+    <div class="probability-list">
+      {% for cls, pct in probabilities.items() %}
+      <div class="probability-row">
+        <span class="probability-name">{{ "AI-Generated" if cls == "ai_generated" else "Real Painting" }}</span>
+        <div class="probability-track"><div class="probability-fill" style="width: {{ pct }}%;"></div></div>
+        <span class="probability-pct">{{ pct }}%</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="explanation">{{ explanation }}</p>
+    <p class="disclaimer">This is a statistical estimate from a student research model, not a certified authentication.</p>
+
+    <a class="btn-secondary" href="{{ url_for('index') }}">Examine another artwork</a>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="history">
+  <h1>Prediction history</h1>
+  {% if not history %}
+    <p class="empty-state">Nothing examined yet. <a href="{{ url_for('index') }}">Upload an artwork</a> to get started.</p>
+  {% else %}
+    <table class="history-table">
+      <thead>
+        <tr><th>When</th><th>Image</th><th>Prediction</th><th>Confidence</th></tr>
+      </thead>
+      <tbody>
+        {% for entry in history %}
+        <tr>
+          <td>{{ entry.timestamp }}</td>
+          <td><img class="history-thumb" src="{{ url_for('static', filename='uploads/' + entry.filename) }}" alt=""></td>
+          <td>{{ "AI-Generated" if entry.predicted_class == "ai_generated" else "Real Painting" }}</td>
+          <td>{{ entry.confidence }}%</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</section>
+
+{% endblock %}
