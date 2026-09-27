@@ -1,0 +1,302 @@
+[
+  {
+    "timestamp": "2026-09-22 18:29:07",
+    "filename": "8fb33bce4d.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-22 18:28:55",
+    "filename": "d914af6c4f.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-22 18:28:42",
+    "filename": "1ea0fcbc98.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-22 18:28:35",
+    "filename": "49c3b26e1f.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 99.57
+  },
+  {
+    "timestamp": "2026-09-22 18:25:35",
+    "filename": "272aa98972.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 98.44
+  },
+  {
+    "timestamp": "2026-09-22 18:25:21",
+    "filename": "ee0b18fa98.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.95
+  },
+  {
+    "timestamp": "2026-09-22 18:25:14",
+    "filename": "37084cda60.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.8
+  },
+  {
+    "timestamp": "2026-09-22 18:25:05",
+    "filename": "9d96e3b9a0.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.91
+  },
+  {
+    "timestamp": "2026-09-22 18:24:38",
+    "filename": "a4523ca5ed.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 19:19:04",
+    "filename": "afea50344b.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 73.13
+  },
+  {
+    "timestamp": "2026-09-19 19:18:54",
+    "filename": "2e9acc9e30.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 19:18:45",
+    "filename": "faa0ff229c.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.97
+  },
+  {
+    "timestamp": "2026-09-19 19:18:36",
+    "filename": "6d088d37dc.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 86.39
+  },
+  {
+    "timestamp": "2026-09-19 19:18:30",
+    "filename": "2d395bcdfa.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 97.98
+  },
+  {
+    "timestamp": "2026-09-19 19:18:21",
+    "filename": "a63330cec0.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 55.7
+  },
+  {
+    "timestamp": "2026-09-19 19:18:12",
+    "filename": "9ffb3dc0be.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.24
+  },
+  {
+    "timestamp": "2026-09-19 18:50:35",
+    "filename": "988792cd64.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:50:17",
+    "filename": "0f98ecb97e.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:49:07",
+    "filename": "b0d12f06d4.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 99.7
+  },
+  {
+    "timestamp": "2026-09-19 18:48:55",
+    "filename": "e6a5365030.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:48:06",
+    "filename": "4c5504ee0b.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.07
+  },
+  {
+    "timestamp": "2026-09-19 18:47:43",
+    "filename": "f87093b2a0.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 51.49
+  },
+  {
+    "timestamp": "2026-09-19 18:47:37",
+    "filename": "c85eb09c77.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 93.63
+  },
+  {
+    "timestamp": "2026-09-19 18:47:24",
+    "filename": "73c6dbdff7.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 51.49
+  },
+  {
+    "timestamp": "2026-09-19 18:47:13",
+    "filename": "5e3ad4cc7f.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:47:01",
+    "filename": "74ef8e0ff1.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:46:27",
+    "filename": "46ec8aa82d.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.97
+  },
+  {
+    "timestamp": "2026-09-19 18:46:08",
+    "filename": "2681cc6415.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.99
+  },
+  {
+    "timestamp": "2026-09-19 18:46:01",
+    "filename": "ad5dd0b045.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 95.72
+  },
+  {
+    "timestamp": "2026-09-19 18:45:54",
+    "filename": "28c4b33a81.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 97.54
+  },
+  {
+    "timestamp": "2026-09-19 18:45:48",
+    "filename": "d688a917b3.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.99
+  },
+  {
+    "timestamp": "2026-09-19 18:45:34",
+    "filename": "f8fd384621.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 62.91
+  },
+  {
+    "timestamp": "2026-09-19 18:45:26",
+    "filename": "d9f2bbb083.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.96
+  },
+  {
+    "timestamp": "2026-09-19 18:45:17",
+    "filename": "5fa1604545.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.99
+  },
+  {
+    "timestamp": "2026-09-19 18:45:09",
+    "filename": "35e0cc3945.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:45:02",
+    "filename": "decff926e9.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 100.0
+  },
+  {
+    "timestamp": "2026-09-19 18:38:50",
+    "filename": "9e0a8c36d2.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 96.37
+  },
+  {
+    "timestamp": "2026-09-19 18:38:39",
+    "filename": "8fbf9c83fb.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 99.99
+  },
+  {
+    "timestamp": "2026-09-19 18:38:27",
+    "filename": "d0a5fbde50.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 93.96
+  },
+  {
+    "timestamp": "2026-09-19 18:38:13",
+    "filename": "de24add4c9.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 96.37
+  },
+  {
+    "timestamp": "2026-09-19 18:38:05",
+    "filename": "4a176c8134.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 96.37
+  },
+  {
+    "timestamp": "2026-09-19 17:49:40",
+    "filename": "2c8ee02c03.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.34
+  },
+  {
+    "timestamp": "2026-09-19 17:49:34",
+    "filename": "298716ded5.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 79.23
+  },
+  {
+    "timestamp": "2026-09-19 17:47:40",
+    "filename": "7f7ff27ac7.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 99.99
+  },
+  {
+    "timestamp": "2026-09-19 17:46:38",
+    "filename": "662819aa67.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.72
+  },
+  {
+    "timestamp": "2026-09-19 17:46:20",
+    "filename": "0da909c6d4.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 96.37
+  },
+  {
+    "timestamp": "2026-09-19 17:43:28",
+    "filename": "2d897b8130.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 93.96
+  },
+  {
+    "timestamp": "2026-09-19 17:43:08",
+    "filename": "308ca38965.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 96.37
+  },
+  {
+    "timestamp": "2026-09-18 05:42:56",
+    "filename": "055b7bf743.jpg",
+    "predicted_class": "real_painting",
+    "confidence": 99.69
+  },
+  {
+    "timestamp": "2026-09-18 05:42:46",
+    "filename": "df8e5060e4.jpg",
+    "predicted_class": "ai_generated",
+    "confidence": 99.97
+  }
+]
